@@ -1,0 +1,62 @@
+El css se utiliza para darle color, estilo, etc a algo hecho en html.
+
+¿Que significa? Hoja de estilo encascado.
+
+Html= Contenido
+Css= Diseño
+JavaScript= Comportamiento.
+
+Conectar hojas de estilo:
+Se usa (se incluye en el head
+    <link rel="stylesheet" type="text/css" href="Debortoli.css">
+*
+Para elegir un color se puede utilizar: Color: rgb(valor numerico1, valor numerico2, valor numerico 3)
+O en hexagecimal: #A5E433;   *
+Para el tamaño de las letras: front-size: 48px; ( el 48px es un ejemplo, puede ser cualquier numero)
+Ej:
+h1{
+front-family: Arial,sons,serif;
+color: #505dff;
+front-size: 48px;
+
+PERSONALIZAR
+Para personalizar algo, se utiliza
+Por ejemplo:
+h1 {
+  color: red;
+  background: black;
+}
+
+
+Selectores	
+*	Selecciona todos los elementos
+p	Selecciona todos los elementos p
+ul, li	Selecciona todos los li dentro de los ul
+h1, p	Selecciona todos los h1 y p
+Color y Background	
+color: ‘red’;	Cambia el color de la fuente a rojo
+background: 'black";	Cambia el fondo a negro
+background-color: “blue”;	Cambia el fondo a azul
+Fuentes de Texto	
+font-family: Arial, sans-serif;	Cambia la familia de la fuente del texto
+font-size: 12px;	Cambia tamaño de la fuente
+font-weight: bold;	Cambia la fuente a negrita
+
+Padding:
+Para definir el lugar del padding, usar;
+padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+O sino:    padding: 20px 30px 40px 50px;
+
+  Border:
+border: 1px solid #000000;
+
+border: 5px solid #ff0000;
+
+margin: 10px 20px 0px 7px;
+Tambien solo poner 20px hace que todo sea a 20px.
+
+Margen= espacio de separacion
+

@@ -1,0 +1,78 @@
+HTML lenguaje de marcado
+Que pasa en internet? Manda otro archivo html
+Lo basico de html que hace falta:
+<!DOCTYPE html> es obligatorio para empezar.
+
+<html> /*Inicio, puede servir para titulos de la pagina, codificacion, enlaces,etc*/
+	
+<head></head> /*Tiene informacion acerca de la pagina, por el general, el usuario no vera esto*/
+
+<body></body> /*En su interior tiene el contenido de la pagina, por lo general el usuario lo puede ver*/
+
+</html> /*Cierra*/
+
+Etiquetas
+- <HTML> Sirve para titulos, codificaciones, etc.
+- <meta> Sirve para aportar informacion sobre el archivo html.
+- Encoding; Es necesario para poner el idooma que utilizara la pagina, para español es "utf-8"
+Ej:
+ <head>
+    <meta charset="utf-8">
+  </head>
+
+-Como abrir y como cerrar: Para garantizar un correcto funcionamiento, al abrir una etiqueta se utiliza <Etiqueta>
+Para cerrarla, </etiqueta>, ej: <abrirCuerpo>, </CerrarCuerpo>
+
+TITULOS: Para abrir un titulo, dentro del body debe estar la etiqueta <h1> Titulo </h1>
+Para subtitulos: <h2> Subtitulo </h2> 
+Para parrafos: <p> Parrafo </p>
+Otro parrafo: <p> Parrafo n2 </p>
+
+PARA TITULO DE LA DIRECCION WEB: <title> Titulo navegador </title>, debe ir dentro del head.
+Hay hasta h6 subtitulos, un h1 como titulo principal, un h2 va a ser un subtitulo del h1 y asi hasta el h6.
+
+Parrafos:
+Dentro de un parrafo se puede poner un <strong> Ejemplo </strong> para que lo que este dentro aparezca en negrita
+Tambien se puede utilizar <em> ejemplo </em> para partes que deberian ir con enfasis.
+
+PARA UNA LISTA( dentro del body), esto sirve para que un buscador identifique que el orden de las cosas dentro de la lista,
+no tiene importacia.
+
+<ul>
+			<li> Aquí un ítem de la lista </li>
+			<li> Aquí otro ítem de la lista </li>
+			<li> Aquí otro ítem de la lista </li>
+		</ul>
+PARA UNA LISTA( Ordenada), esto sirve para que e buscador identifique que el orden es importante
+<ol>
+			<li>Aquí un ítem de la lista</li>
+			<li>Aquí otro ítem de la lista</li>
+			<li>Aquí otro ítem de la lista</li>
+		</ol>
+
+IMAGENES:
+<img src="mi_imagen.jpg" alt="Texto alternativo de mi imagen" para incluir imagen
+width="400"(Ancho) height="300"(alto) /> 
+Debe ser una imagen de contenido, no de diseño.
+
+
+Para divir temas, se usa <div> </div>
+Para transformar una parte del texto, se utiliza la etiqueta <a> </a>
+Debe llevar un atributo obligatorio, href= Link
+Ej: <p>Este párrafo <a> href="http://www.google.com">contiene un link</a> que me lleva a Google.</p>
+Recuerda, debe llevar el http://
+Para ir a otra carpeta que esta en el mismo disco rigido
+<a href="NombreDelaCarpeta"> </a>
+Para ir a una carpeta que esta en otra carpeta, se utiliza /
+Ej:
+<a href="Carpeta1/Contenido"> </a>
+Para una cosa que esta anterior, se utizan dos puntos y luego la barra.
+
+Etiqueta id= permite identificar algo de forma unica.
+Ej:
+<h1 id="principal">Atributo id</h1> pero aqui solo se pueden usar letras o numeros sin tildes o simbolos.
+Se pueden tener varios id, pero deben ser todos diferentes.
+<h1 id="principal"> Este es el título principal </h1>
+El Class es como el id, pero se puede aplicar a varias cosas.
+
+		 
